@@ -257,3 +257,41 @@ react-native link react-native-gesture-handler
 IMPORTANT: Linking a package is necessary run 'react-native run-android' even 'react-native start'. This allows native packages to be visible to our app.
 
 STUDY_NOTE: If any error message rose up in android try to run: 'react-native start --reset-cache
+
+## AXIOS
+
+Plugin to manage requests
+
+```bash
+yarn add axios
+```
+
+STUDY_NOTE: An example of use can be found in ~/services/api.js
+
+## REACT NATIVE STATUS BAR HEIGHT
+
+It's a plugin used to define the sistema statusbar height
+
+```bash
+yarn add react-native-status-bar-height
+```
+
+## REACT NATIVE VECTOR ICONS
+
+This is the best way to work with icons in React Native.
+
+```bash
+yarn add react-native-vector-icons
+```
+
+It's some dependencies that we must to link natively, then:
+
+```bash
+react-native link react-native-vector-icons
+```
+
+After:
+
+```bash
+react-native run-android
+```
