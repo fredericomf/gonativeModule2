@@ -11,6 +11,11 @@ const styles = StyleSheet.create({
   loading: {
     marginTop: metrics.baseMargin * 2,
   },
+
+  columnWrapper: {
+    justifyContent: 'space-between',
+    marginHorizontal: metrics.baseMargin * 2,
+  },
 });
 
 export default styles;
